@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="final_embebidos_v2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="final_embebidos_v2.elf">
+				<Option output="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/final_embebidos_v2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 final_embebidos_v2.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="final_embebidos_v2.elf/fast">
+				<Option output="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/final_embebidos_v2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="/usr/local/gcc_arm/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 final_embebidos_v2.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/DHT.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/FreeRTOSConfig.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/Timer_Delay.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/hcsr04_sensor.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/hcsr04_userConf.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/lcd16x2_i2c.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/main.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Inc/stm32f4xx_it.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/DHT.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/Timer_Delay.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/freertos.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/hcsr04_sensor.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/lcd16x2_i2c.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/main.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/stm32f4xx_it.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/syscalls.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/sysmem.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Src/system_stm32f4xx.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Core/Startup/startup_stm32f411vetx.s">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/STM32F411VETX_FLASH.ld">
+			<Option target="final_embebidos_v2.elf"/>
+		</Unit>
+		<Unit filename="/Users/matiasinsauarralde/CLionProjects/final_embebidos_v2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
