@@ -30,4 +30,4 @@ Generated from STM32CubeMX (`final_embebidos_v2.ioc`). Open in STM32CubeIDE or b
 
 ## Context
 
-Final project for the Embedded Systems course at UTN FRC — 2020.
+Final project for the Embedded Systems course at UCC — 2020.
